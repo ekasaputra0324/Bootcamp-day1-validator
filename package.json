@@ -5,13 +5,14 @@
   "main": "helloworld.js",
   "scripts": {
     "fol": "ls",
-    "start": "node readline.js",
+    "start": "nodemon readline.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "nodemon": "^2.0.20",
     "validator": "^13.9.0"
   }
 }
