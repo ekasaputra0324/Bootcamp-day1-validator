@@ -18,15 +18,14 @@ rl.question("siapa nama kamu? " , function(param){
                     'Email : '+email,
                     'Nomer Hp: '+nomer
                     );
-                    // rl.close();
+                    rl.close();
                 }else{
                     console.log('format number phone harus indo');
-                    // rl.close()
+                    rl.close()
                 }   
             });
         }else{
             console.log('format email harus sesuai');
         }
-        rl.close();
     });
 });
